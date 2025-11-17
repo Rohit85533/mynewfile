@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Deals Card - Flexbox</title>
+  <style>
+    
+    
+    
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: space-between;
+    }
+    .product {
+      flex: 0 0 45%; /* Two items per row */
+      text-align: center;
+    }
+    .product img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 8px;
+    }
+    
+    
+   
+    
+  </style>
+</head>
+<body>
+
+  <div class="deal-card">
+    <h2>Computers & Accessories recommendations for you</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_UL320_.jpg" alt="Dell Mouse">
+        <div class="offer">55% off</div>
+        <div class="festival">Great Indian Festival</div>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61N6dFkuvdL._AC_UL320_.jpg" alt="Wireless Mouse">
+        <div class="offer">63% off</div>
+        <div class="festival">Great Indian Festival</div>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61+Q6Rh3OQL._AC_UL320_.jpg" alt="HP Mouse">
+        <div class="offer">60% off</div>
+        <div class="festival">Great Indian Festival</div>
+      </div>
+      <div class="product">
+        <img src="https://m.media-amazon.com/images/I/61n6Ovq6EdL._AC_UL320_.jpg" alt="Golden Mouse">
+        <div class="offer">33% off</div>
+        <div class="festival">Great Indian Festival</div>
+      </div>
+    </div>
+    <a href="#" class="see-more">See all deals</a>
+  </div>
+
+</body>
+</html>
